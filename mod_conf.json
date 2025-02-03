@@ -4,7 +4,10 @@
     "group_by_length": false,
     "micro_batch_size": 2,
     "torch_compile": true,
-    "sequence_len": 512
+    "sequence_len": 512,
+    "special_tokens": {
+      "pad_token": "<|endoftext|>"
+    }
   },
   "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false

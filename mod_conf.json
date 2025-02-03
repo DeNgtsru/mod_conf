@@ -2,7 +2,8 @@
   "katuni4ka/tiny-random-codegen2": {
     "optimizer": "adamw_hf",
     "flash_attention": false,
-    "load_in_4bit": true
+    "load_in_4bit": true,
+    "sequence_len": 1024
   },
   "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false

@@ -1,20 +1,6 @@
 {
-  "katuni4ka/tiny-random-codegen2": {
-    "eval_batch_size": 2,
-    "flash_attention": false,
-    "sequence_len": 512,
-    "gradient_checkpointing": false,
-    "group_by_length": false,
-    "tf32": false,
-    "lora_alpha": 16,
-    "lora_r": 8,
-    "learning_rate": 0.0002,
-    "lr_scheduler": "cosine",
-    "micro_batch_size": 2,
-    "torch_compile": true,
-    "special_tokens": {
-      "pad_token": "<|endoftext|>"
-    }
+  "unsloth/gemma-2-9b-it": {
+    "micro_batch_size": 4
   },
   "Qwen/Qwen1.5-14B-Chat": {
   },

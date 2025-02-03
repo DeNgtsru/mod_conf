@@ -1,5 +1,6 @@
 {
   "katuni4ka/tiny-random-codegen2": {
+    "optimizer": "adamw_hf",
     "flash_attention": false,
     "load_in_8bit": true
   },

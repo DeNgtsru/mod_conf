@@ -9,6 +9,9 @@
       "pad_token": "<|endoftext|>"
     }
   },
+  "Qwen/Qwen1.5-14B-Chat": {
+    "val_set_size": 0
+  },
   "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false
   },

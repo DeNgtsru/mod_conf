@@ -39,6 +39,9 @@
   "princeton-nlp/gemma-2-9b-it-SimPO": {
     "bf16": false,
     "fp16": true,
+    "micro_batch_size": 2,
+    "gradient_accumulation_steps": 4,
+    "eval_batch_size":null,
     "flash_attention": false
   },
   "EleutherAI/gpt-neo-125m": {

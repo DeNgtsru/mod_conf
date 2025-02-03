@@ -1,10 +1,18 @@
 {
   "katuni4ka/tiny-random-codegen2": {
+    "bf16": auto,
+    "eval_batch_size": null,
     "flash_attention": false,
+    "sequence_len": 512,
+    "gradient_checkpointing": false,
     "group_by_length": false,
+    "tf32": false,
+    "lora_alpha": 16,
+    "lora_r": 8,
+    "learning_rate": 0.0002,
+    "lr_scheduler": "cosine",
     "micro_batch_size": 2,
     "torch_compile": true,
-    "sequence_len": 512,
     "special_tokens": {
       "pad_token": "<|endoftext|>"
     }

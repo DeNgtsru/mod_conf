@@ -1,7 +1,6 @@
 {
   "katuni4ka/tiny-random-codegen2": {
-    "bf16": "auto",
-    "eval_batch_size": null,
+    "eval_batch_size": 2,
     "flash_attention": false,
     "sequence_len": 512,
     "gradient_checkpointing": false,

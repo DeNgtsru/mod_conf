@@ -1,6 +1,7 @@
 {
   "katuni4ka/tiny-random-codegen2": {
-    "flash_attention": false
+    "flash_attention": false,
+    "load_in_8bit": true
   },
   "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false

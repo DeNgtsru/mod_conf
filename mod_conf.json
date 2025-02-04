@@ -15,6 +15,9 @@
   },
   "Qwen/Qwen1.5-14B-Chat": {
   },
+  "NousResearch/CodeLlama-13b-hf": {
+    "flash_attention": false
+  },
   "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false
   },

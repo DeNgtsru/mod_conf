@@ -1,6 +1,9 @@
 {
   "tiiuae/falcon-mamba-7b": {
-    "flash_attention": false
+    "flash_attention": false,
+    "special_tokens": {
+      "pad_token": "<|endoftext|>"
+    }
   },
   "bigscience/bloomz-560m": {
     "flash_attention": false

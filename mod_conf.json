@@ -1,4 +1,7 @@
 {
+  "tiiuae/falcon-mamba-7b": {
+    "flash_attention": false
+  },
   "bigscience/bloomz-560m": {
     "flash_attention": false
   },

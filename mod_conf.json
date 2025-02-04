@@ -4,7 +4,7 @@
   },
   "Xenova/tiny-random-Phi3ForCausalLM": {
     "bf16": false,
-    "fp16": true,
+    "fp16": true
   },
   "unsloth/gemma-2-9b-it": {
     "lr_scheduler": "cosine",

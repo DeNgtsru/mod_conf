@@ -1,4 +1,7 @@
 {
+  "bigscience/bloomz-560m": {
+    "flash_attention": false
+  },
   "Xenova/tiny-random-Phi3ForCausalLM": {
     "bf16": false,
     "fp16": true,
